@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+}
+.container {
+    display: flex;
+}
+
+.content {
+    width: 37%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+}
+.content img{
+    width: 90%;
+    height: 70%;
+    margin-left: 15%;
+}
+
+.content-form {
+    background-color:#FBFBFB;
+    margin-left: 6%;
+}
+
+.content-form {
+    background-color:#FBFBFB;
+    width: 63%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 14%;
+
+}
+
+.iconArrow {
+    padding-top: 2%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    margin-right: -11%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #0072dc;
+    font-weight: 550;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    width: 45%;
+    font-size: 50px;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    color: #242331;
+    margin-top: 18px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.input {
+    width: 44%;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+}
+
+.passw{
+    margin-top: -15px;
+    margin-left: 28%;
+    font-size: 12px;
+}
+
+.form button{
+    margin-left: 28%;
+    background-color: #009DDC;
+    border-radius: 8px;
+    color: #FFF;
+    width: 44%;
+    height: 52px;
+    font-family: "Lato-Regular";
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.linea {
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    z-index: 1;
+    margin-bottom:20px;
+}
+
+.linea::before {
+    border-top: 2px solid #C5C5C5;
+    content: "";
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 44%;
+    z-index: -1;
+}
+
+.linea span {
+    background-color: #FBFBFB;
+    padding: 0px 8px;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    font-weight: 500;
+    color:#A6A0A0;
+}
+
+.div button {
+    width: 44%;
+    margin-top: 10px;
+    margin-left: -0.1%;
+    border: 1px solid #C5C5C5;
+    background-color: #ffffff;
+    padding: 13px 0px;
+    color: #242331;
+    border-radius: 7px;
+    display: flex;
+    cursor: pointer;
+}
+
+.div span{
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+    font-size: 16px;
+}
