@@ -2,7 +2,7 @@
 
 <P>
   <h2 align="center">ARELY AGUILAR FARIAS</h2>
-  <h3 align="center">Creación de una APP de peliculas</h3>
+  <h3 align="center">Creación de una interfaz de un Login con Angular</h3>
   <h3 align="center">Fecha de entrega: 14/Octubre/2023</h3>
 </P>
 
